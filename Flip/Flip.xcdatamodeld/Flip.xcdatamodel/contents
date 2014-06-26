@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="one" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Cartoon" representedClassName="FLCartoon" syncable="YES">
+        <attribute name="currentSceneIndex" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="fontName" attributeType="String" syncable="YES"/>
+        <attribute name="framesPerSecond" attributeType="Integer 32" minValueString="1" maxValueString="30" defaultValueString="5" syncable="YES"/>
+        <attribute name="index" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineThickness" attributeType="Integer 32" minValueString="1" defaultValueString="1" syncable="YES"/>
+        <attribute name="title" attributeType="String" minValueString="1" defaultValueString="Untitled" syncable="YES"/>
+        <relationship name="scenes" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Scene" inverseName="cartoon" inverseEntity="Scene" syncable="YES"/>
+        <relationship name="shapes" toMany="YES" deletionRule="Cascade" destinationEntity="Shape" inverseName="cartoon" inverseEntity="Shape" syncable="YES"/>
+        <relationship name="state" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="currentCartoon" inverseEntity="State" syncable="YES"/>
+    </entity>
+    <entity name="Path" representedClassName="FLPath" parentEntity="Stroke" syncable="YES">
+        <relationship name="points" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Point" inverseName="path" inverseEntity="Point" syncable="YES"/>
+    </entity>
+    <entity name="Point" representedClassName="FLPoint" syncable="YES">
+        <attribute name="x" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="path" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Path" inverseName="points" inverseEntity="Path" syncable="YES"/>
+    </entity>
+    <entity name="Polygon" representedClassName="FLPolygon" parentEntity="Path" syncable="YES">
+        <attribute name="colorIndex" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Scene" representedClassName="FLScene" syncable="YES">
+        <attribute name="currentShapeIndex" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="cartoon" maxCount="1" deletionRule="Nullify" destinationEntity="Cartoon" inverseName="scenes" inverseEntity="Cartoon" syncable="YES"/>
+        <relationship name="originalShapes" toMany="YES" deletionRule="Nullify" destinationEntity="Shape" inverseName="originalScene" inverseEntity="Shape" syncable="YES"/>
+        <relationship name="shapes" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Shape" inverseName="scenes" inverseEntity="Shape" syncable="YES"/>
+    </entity>
+    <entity name="Shape" representedClassName="FLShape" syncable="YES">
+        <attribute name="alpha" optional="YES" attributeType="Float" defaultValueString="1" syncable="YES"/>
+        <attribute name="bbh" attributeType="Float" defaultValueString="-1" syncable="YES"/>
+        <attribute name="bbw" attributeType="Float" defaultValueString="-1" syncable="YES"/>
+        <attribute name="bbx" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bby" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="cartoon" maxCount="1" deletionRule="Nullify" destinationEntity="Cartoon" inverseName="shapes" inverseEntity="Cartoon" syncable="YES"/>
+        <relationship name="clonedShape" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shape" inverseName="originalShape" inverseEntity="Shape" syncable="YES"/>
+        <relationship name="originalScene" maxCount="1" deletionRule="Nullify" destinationEntity="Scene" inverseName="originalShapes" inverseEntity="Scene" syncable="YES"/>
+        <relationship name="originalShape" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shape" inverseName="clonedShape" inverseEntity="Shape" syncable="YES"/>
+        <relationship name="scenes" toMany="YES" deletionRule="Nullify" destinationEntity="Scene" inverseName="shapes" inverseEntity="Scene" syncable="YES"/>
+        <relationship name="strokes" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Stroke" inverseName="shape" inverseEntity="Stroke" syncable="YES"/>
+    </entity>
+    <entity name="State" representedClassName="FLState" syncable="YES">
+        <relationship name="currentCartoon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cartoon" inverseName="state" inverseEntity="Cartoon" syncable="YES"/>
+    </entity>
+    <entity name="Stroke" representedClassName="FLStroke" isAbstract="YES" syncable="YES">
+        <relationship name="shape" maxCount="1" deletionRule="Nullify" destinationEntity="Shape" inverseName="strokes" inverseEntity="Shape" syncable="YES"/>
+    </entity>
+    <entity name="Text" representedClassName="FLText" parentEntity="Stroke" syncable="YES">
+        <attribute name="fontSize" attributeType="Float" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="height" attributeType="Float" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="outlineHeight" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="outlineWidth" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="outlineX" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="outlineY" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="text" attributeType="String" syncable="YES"/>
+        <attribute name="width" attributeType="Float" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cartoon" positionX="-270" positionY="-279" width="128" height="180"/>
+        <element name="Path" positionX="-36" positionY="90" width="128" height="58"/>
+        <element name="Point" positionX="54" positionY="-99" width="128" height="88"/>
+        <element name="Polygon" positionX="-108" positionY="-126" width="128" height="60"/>
+        <element name="Scene" positionX="7" positionY="-207" width="128" height="103"/>
+        <element name="Shape" positionX="-279" positionY="-108" width="128" height="208"/>
+        <element name="State" positionX="-108" positionY="-126" width="128" height="60"/>
+        <element name="Stroke" positionX="-99" positionY="-117" width="128" height="58"/>
+        <element name="Text" positionX="-108" positionY="-126" width="128" height="195"/>
+    </elements>
+</model>

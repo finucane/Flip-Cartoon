@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Flip
+
+  Created by Finucane on 5/29/14.
+  Copyright (c) 2014 David Finucane. All rights reserved.
+*/
+
+"Persistent Store Error" = "Persistent Store Error";
+"Couldn't load saved data. Probably because the data model has changed. Saved data will be deleted." = "Couldn't load saved data. Probably because the data model has changed. Saved data will be deleted.";
+"Internal Error" = "Internal Error";
+"OK" = "OK";
+"Empty Cartoon" = "Empty Cartoon";
+"Can't set cartoon title to the empty string. It was left unchanged." = "Can't set cartoon title to the empty string. It was left unchanged.";
+"Couldn't allocate pixel buffer." = "Couldn't allocate pixel buffer.";
+"Untitled" = "Untitled";
+"Here is a cartoon I made with Flip Cartoon." = "Here is a cartoon I made with Flip Cartoon.";
+"Couldn't create GC from pixel buffer." = "Couldn't create GC from pixel buffer.";
+"Couldn't append pixel buffer." = "Couldn't append pixel buffer.";
+"In-App Purchases" = "In-App Purchases";
+"Product Identifier" = "Product Identifier";
+"The client was invalid." = "The client was invalid.";
+"The payment was cancelled." = "The payment was cancelled.";
+"The payment was not allowed." = "The payment was not allowed.";
+"The product was not available." = "The product was not available.";
+"Something bad happened." = "Something bad happened.";
+"(Purchased)" = "(Purchased)";
+"(Pending)" = "(Pending)";
+"(Purchase Failed)" = "(Purchase Failed)";
+"You have reached your limit of %d frames. Use In-App Purchases to remove this limit." = "You have reached your limit of %d frames. Use In-App Purchases to remove this limit.";
+"You may only have one cartoon at a time. Use In-App Purchases to remove this limit." = "You may only have one cartoon at a time. Use In-App Purchases to remove this limit.";
+"Frame Limit" = "Frame Limit";
+"Cartoon Limit" = "Cartoon Limit";

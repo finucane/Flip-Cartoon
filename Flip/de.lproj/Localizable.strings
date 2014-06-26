@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Flip
+
+  Created by Finucane on 5/29/14.
+  Copyright (c) 2014 David Finucane. All rights reserved.
+*/
+
+"Persistent Store Error" = "Fehler im persistenten Speicher";
+"Couldn't load saved data. Probably because the data model has changed. Saved data will be deleted." = "Die gespeicherte Daten konnten nicht geladen werden, möglicherweise hat sich das Datenmodell geändert. Die gespeicherten Daten werden gelöscht.";
+"Internal Error" = "Interner Fehler";
+"OK" = "OK";
+"Empty Cartoon Title" = "Leere Cartoon Titel";
+"Can't set cartoon title to the empty string. It was left unchanged." = "Kann die Cartoon-Titel nicht auf die leere Zeichenkette ändern. Es blieb unverändert.";
+"Couldn't allocate pixel buffer." = "Pixel-Puffer konnte nicht zugeordnet werden.";
+"Couldn't create GC from pixel buffer." = "GC konnte nicht von Pixelpuffer erstellt werden.";
+"Couldn't append pixel buffer." = "Pixelpuffer konnte nicht hinzugefügt werden.";
+"Untitled" = "Unbenannt";
+"Here is a cartoon I made with Flip Cartoon." = "Hier ist ein Cartoon daß ich mit Flip Cartoon gemacht habe.";
+"In-App Purchases" = "In-App-Käufe";
+"Product Identifier" = "Produkt Bezeichnung";
+"The client was invalid." = "Der Client war ungültig.";
+"The payment was cancelled." = "Die Zahlung wurde abgebrochen.";
+"The payment was not allowed." = "Die Zahlung wurde nicht erlaubt.";
+"The product was not available." = "Das Produkt war nicht verfügbar.";
+"Something bad happened." = "Etwas Böses passiert.";
+"(Purchased)" = "(Gekaufte)";
+"(Pending)" = "(Anstehend)";
+"(Purchase Failed)" = "(Kauf Gescheitert)";
+"You have reached your limit of %d frames. Use In-App Purchases to remove this limit." = "Sie haben die Grenze von %d Rahmen erreicht. Um diese Grenze zu entfernen, verwenden Sie In-App-Käufe.";
+"You may only have one cartoon at a time. Use In-App Purchases to remove this limit." = "Sie können nur eine Cartoon zu einem Zeitpunkt haben. Um diese Grenze zu entfernen, verwenden Sie In-App-Käufe.";
+"Frame Limit" = "Rahmengrenze";
+"Cartoon Limit" = "Cartoon-Grenze";

@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7932A54C195347E200B0F871 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7932A54B195347E200B0F871 /* iAd.framework */; };
+		793321351936AD1400CFA035 /* FLCartoon.m in Sources */ = {isa = PBXBuildFile; fileRef = 793321341936AD1400CFA035 /* FLCartoon.m */; };
+		793321381936AD3A00CFA035 /* FLPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 793321371936AD3A00CFA035 /* FLPath.m */; };
+		7933213B1936AD5800CFA035 /* FLPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933213A1936AD5800CFA035 /* FLPoint.m */; };
+		7933213E1936AD8500CFA035 /* FLShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933213D1936AD8500CFA035 /* FLShape.m */; };
+		793321451936CF8300CFA035 /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 793321441936CF8300CFA035 /* NSError+Additions.m */; };
+		794AAF321954E0FE00251D77 /* product_ids.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794AAF311954E0FD00251D77 /* product_ids.plist */; };
+		794AAF351954E15D00251D77 /* FLPurchases.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AAF341954E15D00251D77 /* FLPurchases.m */; };
+		794AAF371954E68400251D77 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794AAF361954E68400251D77 /* StoreKit.framework */; };
+		794AAF3A1954F60A00251D77 /* FLPurchasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AAF391954F60A00251D77 /* FLPurchasesViewController.m */; };
+		794AAF3D1954F89100251D77 /* FLPurchasesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AAF3C1954F89100251D77 /* FLPurchasesCell.m */; };
+		794AAF401955075900251D77 /* SKProduct+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 794AAF3F1955075900251D77 /* SKProduct+Additions.m */; };
+		797FD28D193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 797FD28C193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.m */; };
+		797FD290193E5967008E365C /* FLPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 797FD28F193E5967008E365C /* FLPolygon.m */; };
+		797FD293194136AD008E365C /* UIButton+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 797FD292194136AD008E365C /* UIButton+Additions.m */; };
+		797FD29619423335008E365C /* DFPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 797FD29519423335008E365C /* DFPanGestureRecognizer.m */; };
+		79896B601937A10B00F7D187 /* FLState.m in Sources */ = {isa = PBXBuildFile; fileRef = 79896B5F1937A10B00F7D187 /* FLState.m */; };
+		79896B661937B6F900F7D187 /* UIAlertView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79896B651937B6F900F7D187 /* UIAlertView+Additions.m */; };
+		79896B6D1937BB4100F7D187 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79896B6F1937BB4100F7D187 /* Localizable.strings */; };
+		79A119FB19365D9D00D512F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A119FA19365D9D00D512F7 /* CoreData.framework */; };
+		79A119FE19365E0800D512F7 /* Flip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79A119FC19365E0800D512F7 /* Flip.xcdatamodeld */; };
+		79A11A8619366E3A00D512F7 /* FLCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A11A8519366E3A00D512F7 /* FLCoreData.m */; };
+		79BE10831942525800082E86 /* FLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE10821942525800082E86 /* FLScene.m */; };
+		79BE10A41944E96F00082E86 /* FLStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE10A31944E96F00082E86 /* FLStroke.m */; };
+		79BE10A71944E9B800082E86 /* FLText.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BE10A61944E9B800082E86 /* FLText.m */; };
+		79C15DAB1947945700DC8279 /* DFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C15DAA1947945700DC8279 /* DFButton.m */; };
+		79C15DAE19479A5400DC8279 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C15DAD19479A5400DC8279 /* UIImage+Additions.m */; };
+		79C15DB11947B2B100DC8279 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C15DB01947B2B100DC8279 /* UIView+AutoLayout.m */; };
+		79C965CC1938048F0032A8FC /* FLCartoonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C965CB1938048F0032A8FC /* FLCartoonCell.m */; };
+		79C965CF193814480032A8FC /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C965CE193814480032A8FC /* UIColor+Additions.m */; };
+		79C965D11938F62D0032A8FC /* geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C965D01938F62D0032A8FC /* geometry.m */; };
+		79C98377192C3537002CD5B9 /* FLCartoonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C98376192C3537002CD5B9 /* FLCartoonsViewController.m */; };
+		79C9837A192C35C4002CD5B9 /* FLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C98379192C35C4002CD5B9 /* FLNavigationController.m */; };
+		79C9837E192EEAE5002CD5B9 /* FLCartoonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C9837D192EEAE5002CD5B9 /* FLCartoonDetailViewController.m */; };
+		79CD2956195883F300CB0C34 /* FLUndo.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD2955195883F300CB0C34 /* FLUndo.m */; };
+		79DD99ED19390E9600F31DE1 /* FLCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DD99EC19390E9600F31DE1 /* FLCanvasView.m */; };
+		79DD99F11939458900F31DE1 /* FLManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DD99F01939458900F31DE1 /* FLManagedObject.m */; };
+		79E08D5D1925425600FEDAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D5C1925425600FEDAFF /* Foundation.framework */; };
+		79E08D5F1925425600FEDAFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D5E1925425600FEDAFF /* CoreGraphics.framework */; };
+		79E08D611925425600FEDAFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D601925425600FEDAFF /* UIKit.framework */; };
+		79E08D671925425600FEDAFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D651925425600FEDAFF /* InfoPlist.strings */; };
+		79E08D691925425600FEDAFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E08D681925425600FEDAFF /* main.m */; };
+		79E08D6D1925425600FEDAFF /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E08D6C1925425600FEDAFF /* FLAppDelegate.m */; };
+		79E08D701925425600FEDAFF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D6E1925425600FEDAFF /* Main_iPhone.storyboard */; };
+		79E08D731925425600FEDAFF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D711925425600FEDAFF /* Main_iPad.storyboard */; };
+		79E08D761925425600FEDAFF /* FLCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E08D751925425600FEDAFF /* FLCanvasViewController.m */; };
+		79E08D781925425600FEDAFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D771925425600FEDAFF /* Images.xcassets */; };
+		79E08D7F1925425600FEDAFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D7E1925425600FEDAFF /* XCTest.framework */; };
+		79E08D801925425600FEDAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D5C1925425600FEDAFF /* Foundation.framework */; };
+		79E08D811925425700FEDAFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D601925425600FEDAFF /* UIKit.framework */; };
+		79E08D891925425700FEDAFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D871925425700FEDAFF /* InfoPlist.strings */; };
+		79E08D8B1925425700FEDAFF /* FlipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E08D8A1925425700FEDAFF /* FlipTests.m */; };
+		79EEF94D194FAAB700F2D4D2 /* FLCartoonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF94C194FAAB700F2D4D2 /* FLCartoonWriter.m */; };
+		79EEF9501950AC9B00F2D4D2 /* FLCartoonProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF94F1950AC9B00F2D4D2 /* FLCartoonProvider.m */; };
+		79EEF9531952308F00F2D4D2 /* FLActivityProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF9521952308F00F2D4D2 /* FLActivityProgressViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E08D821925425700FEDAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E08D511925425600FEDAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E08D581925425600FEDAFF;
+			remoteInfo = Flip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7932A54B195347E200B0F871 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		793321331936AD1400CFA035 /* FLCartoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoon.h; sourceTree = "<group>"; };
+		793321341936AD1400CFA035 /* FLCartoon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoon.m; sourceTree = "<group>"; };
+		793321361936AD3A00CFA035 /* FLPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPath.h; sourceTree = "<group>"; };
+		793321371936AD3A00CFA035 /* FLPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPath.m; sourceTree = "<group>"; };
+		793321391936AD5800CFA035 /* FLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPoint.h; sourceTree = "<group>"; };
+		7933213A1936AD5800CFA035 /* FLPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPoint.m; sourceTree = "<group>"; };
+		7933213C1936AD8500CFA035 /* FLShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLShape.h; sourceTree = "<group>"; };
+		7933213D1936AD8500CFA035 /* FLShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLShape.m; sourceTree = "<group>"; };
+		793321431936CF8300CFA035 /* NSError+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Additions.h"; sourceTree = "<group>"; };
+		793321441936CF8300CFA035 /* NSError+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Additions.m"; sourceTree = "<group>"; };
+		7937CF701956884700A57003 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		794AAF311954E0FD00251D77 /* product_ids.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product_ids.plist; sourceTree = "<group>"; };
+		794AAF331954E15D00251D77 /* FLPurchases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPurchases.h; sourceTree = "<group>"; };
+		794AAF341954E15D00251D77 /* FLPurchases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPurchases.m; sourceTree = "<group>"; };
+		794AAF361954E68400251D77 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		794AAF381954F60A00251D77 /* FLPurchasesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPurchasesViewController.h; sourceTree = "<group>"; };
+		794AAF391954F60A00251D77 /* FLPurchasesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPurchasesViewController.m; sourceTree = "<group>"; };
+		794AAF3B1954F89100251D77 /* FLPurchasesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPurchasesCell.h; sourceTree = "<group>"; };
+		794AAF3C1954F89100251D77 /* FLPurchasesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPurchasesCell.m; sourceTree = "<group>"; };
+		794AAF3E1955075900251D77 /* SKProduct+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKProduct+Additions.h"; sourceTree = "<group>"; };
+		794AAF3F1955075900251D77 /* SKProduct+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+Additions.m"; sourceTree = "<group>"; };
+		797FD28B193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+KCOrderedAccessorFix.h"; sourceTree = "<group>"; };
+		797FD28C193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+KCOrderedAccessorFix.m"; sourceTree = "<group>"; };
+		797FD28E193E5967008E365C /* FLPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPolygon.h; sourceTree = "<group>"; };
+		797FD28F193E5967008E365C /* FLPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPolygon.m; sourceTree = "<group>"; };
+		797FD291194136AD008E365C /* UIButton+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		797FD292194136AD008E365C /* UIButton+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		797FD29419423335008E365C /* DFPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPanGestureRecognizer.h; sourceTree = "<group>"; };
+		797FD29519423335008E365C /* DFPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPanGestureRecognizer.m; sourceTree = "<group>"; };
+		79896B5E1937A10B00F7D187 /* FLState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLState.h; sourceTree = "<group>"; };
+		79896B5F1937A10B00F7D187 /* FLState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLState.m; sourceTree = "<group>"; };
+		79896B641937B6F900F7D187 /* UIAlertView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Additions.h"; sourceTree = "<group>"; };
+		79896B651937B6F900F7D187 /* UIAlertView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Additions.m"; sourceTree = "<group>"; };
+		79896B691937BA9200F7D187 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79896B6A1937BA9200F7D187 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79896B6E1937BB4100F7D187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79896B701937BB4E00F7D187 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79A119FA19365D9D00D512F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79A119FD19365E0800D512F7 /* Flip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flip.xcdatamodel; sourceTree = "<group>"; };
+		79A11A8419366E3A00D512F7 /* FLCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCoreData.h; sourceTree = "<group>"; };
+		79A11A8519366E3A00D512F7 /* FLCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCoreData.m; sourceTree = "<group>"; };
+		79BE10811942525800082E86 /* FLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLScene.h; sourceTree = "<group>"; };
+		79BE10821942525800082E86 /* FLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLScene.m; sourceTree = "<group>"; };
+		79BE10A21944E96F00082E86 /* FLStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLStroke.h; sourceTree = "<group>"; };
+		79BE10A31944E96F00082E86 /* FLStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLStroke.m; sourceTree = "<group>"; };
+		79BE10A51944E9B800082E86 /* FLText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLText.h; sourceTree = "<group>"; };
+		79BE10A61944E9B800082E86 /* FLText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLText.m; sourceTree = "<group>"; };
+		79C15DA91947945700DC8279 /* DFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFButton.h; sourceTree = "<group>"; };
+		79C15DAA1947945700DC8279 /* DFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFButton.m; sourceTree = "<group>"; };
+		79C15DAC19479A5400DC8279 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		79C15DAD19479A5400DC8279 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		79C15DAF1947B2B100DC8279 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		79C15DB01947B2B100DC8279 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		79C965CA1938048F0032A8FC /* FLCartoonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonCell.h; sourceTree = "<group>"; };
+		79C965CB1938048F0032A8FC /* FLCartoonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoonCell.m; sourceTree = "<group>"; };
+		79C965CD193814480032A8FC /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		79C965CE193814480032A8FC /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		79C965D01938F62D0032A8FC /* geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = geometry.m; sourceTree = "<group>"; };
+		79C965D21938F6360032A8FC /* geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		79C98375192C3537002CD5B9 /* FLCartoonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonsViewController.h; sourceTree = "<group>"; };
+		79C98376192C3537002CD5B9 /* FLCartoonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoonsViewController.m; sourceTree = "<group>"; };
+		79C98378192C35C4002CD5B9 /* FLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLNavigationController.h; sourceTree = "<group>"; };
+		79C98379192C35C4002CD5B9 /* FLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLNavigationController.m; sourceTree = "<group>"; };
+		79C9837B192C404F002CD5B9 /* insist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insist.h; sourceTree = "<group>"; };
+		79C9837C192EEAE5002CD5B9 /* FLCartoonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonDetailViewController.h; sourceTree = "<group>"; };
+		79C9837D192EEAE5002CD5B9 /* FLCartoonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoonDetailViewController.m; sourceTree = "<group>"; };
+		79CD2954195883F300CB0C34 /* FLUndo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLUndo.h; sourceTree = "<group>"; };
+		79CD2955195883F300CB0C34 /* FLUndo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUndo.m; sourceTree = "<group>"; };
+		79CD29581958DAFB00CB0C34 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		79CD295A1958DC1100CB0C34 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		79DD99EB19390E9600F31DE1 /* FLCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCanvasView.h; sourceTree = "<group>"; };
+		79DD99EC19390E9600F31DE1 /* FLCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCanvasView.m; sourceTree = "<group>"; };
+		79DD99EF1939458900F31DE1 /* FLManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLManagedObject.h; sourceTree = "<group>"; };
+		79DD99F01939458900F31DE1 /* FLManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLManagedObject.m; sourceTree = "<group>"; };
+		79E08D591925425600FEDAFF /* Flip Cartoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flip Cartoon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E08D5C1925425600FEDAFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79E08D5E1925425600FEDAFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79E08D601925425600FEDAFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79E08D641925425600FEDAFF /* Flip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flip-Info.plist"; sourceTree = "<group>"; };
+		79E08D661925425600FEDAFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79E08D681925425600FEDAFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E08D6A1925425600FEDAFF /* Flip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flip-Prefix.pch"; sourceTree = "<group>"; };
+		79E08D6B1925425600FEDAFF /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		79E08D6C1925425600FEDAFF /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
+		79E08D6F1925425600FEDAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		79E08D721925425600FEDAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		79E08D741925425600FEDAFF /* FLCanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCanvasViewController.h; sourceTree = "<group>"; };
+		79E08D751925425600FEDAFF /* FLCanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCanvasViewController.m; sourceTree = "<group>"; };
+		79E08D771925425600FEDAFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79E08D7D1925425600FEDAFF /* FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E08D7E1925425600FEDAFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79E08D861925425700FEDAFF /* FlipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipTests-Info.plist"; sourceTree = "<group>"; };
+		79E08D881925425700FEDAFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79E08D8A1925425700FEDAFF /* FlipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipTests.m; sourceTree = "<group>"; };
+		79EEF94B194FAAB700F2D4D2 /* FLCartoonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonWriter.h; sourceTree = "<group>"; };
+		79EEF94C194FAAB700F2D4D2 /* FLCartoonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoonWriter.m; sourceTree = "<group>"; };
+		79EEF94E1950AC9B00F2D4D2 /* FLCartoonProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonProvider.h; sourceTree = "<group>"; };
+		79EEF94F1950AC9B00F2D4D2 /* FLCartoonProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoonProvider.m; sourceTree = "<group>"; };
+		79EEF9511952308F00F2D4D2 /* FLActivityProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLActivityProgressViewController.h; sourceTree = "<group>"; };
+		79EEF9521952308F00F2D4D2 /* FLActivityProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLActivityProgressViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E08D561925425600FEDAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794AAF371954E68400251D77 /* StoreKit.framework in Frameworks */,
+				7932A54C195347E200B0F871 /* iAd.framework in Frameworks */,
+				79A119FB19365D9D00D512F7 /* CoreData.framework in Frameworks */,
+				79E08D5F1925425600FEDAFF /* CoreGraphics.framework in Frameworks */,
+				79E08D611925425600FEDAFF /* UIKit.framework in Frameworks */,
+				79E08D5D1925425600FEDAFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E08D7A1925425600FEDAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E08D7F1925425600FEDAFF /* XCTest.framework in Frameworks */,
+				79E08D811925425700FEDAFF /* UIKit.framework in Frameworks */,
+				79E08D801925425600FEDAFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793321421936CF5A00CFA035 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				79C15DAF1947B2B100DC8279 /* UIView+AutoLayout.h */,
+				79C15DB01947B2B100DC8279 /* UIView+AutoLayout.m */,
+				79896B641937B6F900F7D187 /* UIAlertView+Additions.h */,
+				79896B651937B6F900F7D187 /* UIAlertView+Additions.m */,
+				79C15DAC19479A5400DC8279 /* UIImage+Additions.h */,
+				79C15DAD19479A5400DC8279 /* UIImage+Additions.m */,
+				797FD291194136AD008E365C /* UIButton+Additions.h */,
+				797FD292194136AD008E365C /* UIButton+Additions.m */,
+				794AAF3E1955075900251D77 /* SKProduct+Additions.h */,
+				794AAF3F1955075900251D77 /* SKProduct+Additions.m */,
+				793321431936CF8300CFA035 /* NSError+Additions.h */,
+				793321441936CF8300CFA035 /* NSError+Additions.m */,
+				79C965CD193814480032A8FC /* UIColor+Additions.h */,
+				79C965CE193814480032A8FC /* UIColor+Additions.m */,
+				797FD29419423335008E365C /* DFPanGestureRecognizer.h */,
+				797FD29519423335008E365C /* DFPanGestureRecognizer.m */,
+				79C965D21938F6360032A8FC /* geometry.h */,
+				79C965D01938F62D0032A8FC /* geometry.m */,
+				79C15DA91947945700DC8279 /* DFButton.h */,
+				79C15DAA1947945700DC8279 /* DFButton.m */,
+				79C9837B192C404F002CD5B9 /* insist.h */,
+			);
+			name = Library;
+			path = Flip/Library;
+			sourceTree = "<group>";
+		};
+		796F8C0F195CC78C00F529C8 /* Flip-Cartoon */ = {
+			isa = PBXGroup;
+			children = (
+				79EEF94B194FAAB700F2D4D2 /* FLCartoonWriter.h */,
+				79EEF94C194FAAB700F2D4D2 /* FLCartoonWriter.m */,
+				79EEF94E1950AC9B00F2D4D2 /* FLCartoonProvider.h */,
+				79EEF94F1950AC9B00F2D4D2 /* FLCartoonProvider.m */,
+				79E08D6B1925425600FEDAFF /* FLAppDelegate.h */,
+				79E08D6C1925425600FEDAFF /* FLAppDelegate.m */,
+				794AAF331954E15D00251D77 /* FLPurchases.h */,
+				794AAF341954E15D00251D77 /* FLPurchases.m */,
+				79C98378192C35C4002CD5B9 /* FLNavigationController.h */,
+				79C98379192C35C4002CD5B9 /* FLNavigationController.m */,
+				79DD99EB19390E9600F31DE1 /* FLCanvasView.h */,
+				79DD99EC19390E9600F31DE1 /* FLCanvasView.m */,
+				79E08D741925425600FEDAFF /* FLCanvasViewController.h */,
+				79E08D751925425600FEDAFF /* FLCanvasViewController.m */,
+				79C98375192C3537002CD5B9 /* FLCartoonsViewController.h */,
+				79C98376192C3537002CD5B9 /* FLCartoonsViewController.m */,
+				79C9837C192EEAE5002CD5B9 /* FLCartoonDetailViewController.h */,
+				79C9837D192EEAE5002CD5B9 /* FLCartoonDetailViewController.m */,
+				794AAF381954F60A00251D77 /* FLPurchasesViewController.h */,
+				794AAF391954F60A00251D77 /* FLPurchasesViewController.m */,
+				794AAF3B1954F89100251D77 /* FLPurchasesCell.h */,
+				794AAF3C1954F89100251D77 /* FLPurchasesCell.m */,
+				79C965CA1938048F0032A8FC /* FLCartoonCell.h */,
+				79C965CB1938048F0032A8FC /* FLCartoonCell.m */,
+				79EEF9511952308F00F2D4D2 /* FLActivityProgressViewController.h */,
+				79EEF9521952308F00F2D4D2 /* FLActivityProgressViewController.m */,
+			);
+			name = "Flip-Cartoon";
+			path = "Flip/Flip-Cartoon";
+			sourceTree = "<group>";
+		};
+		797FD28A193C1B15008E365C /* KCOrderedAccessorFix */ = {
+			isa = PBXGroup;
+			children = (
+				797FD28B193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.h */,
+				797FD28C193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.m */,
+			);
+			name = KCOrderedAccessorFix;
+			path = Flip/KCOrderedAccessorFix;
+			sourceTree = "<group>";
+		};
+		79A11A901936868100D512F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79DD99EF1939458900F31DE1 /* FLManagedObject.h */,
+				79DD99F01939458900F31DE1 /* FLManagedObject.m */,
+				79896B5E1937A10B00F7D187 /* FLState.h */,
+				79896B5F1937A10B00F7D187 /* FLState.m */,
+				79BE10A21944E96F00082E86 /* FLStroke.h */,
+				79BE10A31944E96F00082E86 /* FLStroke.m */,
+				79BE10A51944E9B800082E86 /* FLText.h */,
+				79BE10A61944E9B800082E86 /* FLText.m */,
+				793321391936AD5800CFA035 /* FLPoint.h */,
+				7933213A1936AD5800CFA035 /* FLPoint.m */,
+				793321361936AD3A00CFA035 /* FLPath.h */,
+				793321371936AD3A00CFA035 /* FLPath.m */,
+				797FD28E193E5967008E365C /* FLPolygon.h */,
+				797FD28F193E5967008E365C /* FLPolygon.m */,
+				7933213C1936AD8500CFA035 /* FLShape.h */,
+				7933213D1936AD8500CFA035 /* FLShape.m */,
+				79BE10811942525800082E86 /* FLScene.h */,
+				79BE10821942525800082E86 /* FLScene.m */,
+				793321331936AD1400CFA035 /* FLCartoon.h */,
+				793321341936AD1400CFA035 /* FLCartoon.m */,
+				79A11A8419366E3A00D512F7 /* FLCoreData.h */,
+				79A11A8519366E3A00D512F7 /* FLCoreData.m */,
+				79CD2954195883F300CB0C34 /* FLUndo.h */,
+				79CD2955195883F300CB0C34 /* FLUndo.m */,
+			);
+			name = Model;
+			path = Flip/Model;
+			sourceTree = "<group>";
+		};
+		79E08D501925425600FEDAFF = {
+			isa = PBXGroup;
+			children = (
+				796F8C0F195CC78C00F529C8 /* Flip-Cartoon */,
+				797FD28A193C1B15008E365C /* KCOrderedAccessorFix */,
+				793321421936CF5A00CFA035 /* Library */,
+				79A11A901936868100D512F7 /* Model */,
+				79E08D621925425600FEDAFF /* Flip */,
+				79E08D841925425700FEDAFF /* FlipTests */,
+				79E08D5B1925425600FEDAFF /* Frameworks */,
+				79E08D5A1925425600FEDAFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E08D5A1925425600FEDAFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E08D591925425600FEDAFF /* Flip Cartoon.app */,
+				79E08D7D1925425600FEDAFF /* FlipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E08D5B1925425600FEDAFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7937CF701956884700A57003 /* libobjc.dylib */,
+				794AAF361954E68400251D77 /* StoreKit.framework */,
+				7932A54B195347E200B0F871 /* iAd.framework */,
+				79A119FA19365D9D00D512F7 /* CoreData.framework */,
+				79E08D5C1925425600FEDAFF /* Foundation.framework */,
+				79E08D5E1925425600FEDAFF /* CoreGraphics.framework */,
+				79E08D601925425600FEDAFF /* UIKit.framework */,
+				79E08D7E1925425600FEDAFF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79E08D621925425600FEDAFF /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				79E08D6E1925425600FEDAFF /* Main_iPhone.storyboard */,
+				79E08D711925425600FEDAFF /* Main_iPad.storyboard */,
+				79E08D771925425600FEDAFF /* Images.xcassets */,
+				79E08D631925425600FEDAFF /* Supporting Files */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		79E08D631925425600FEDAFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E08D641925425600FEDAFF /* Flip-Info.plist */,
+				794AAF311954E0FD00251D77 /* product_ids.plist */,
+				79896B6F1937BB4100F7D187 /* Localizable.strings */,
+				79E08D651925425600FEDAFF /* InfoPlist.strings */,
+				79E08D681925425600FEDAFF /* main.m */,
+				79E08D6A1925425600FEDAFF /* Flip-Prefix.pch */,
+				79A119FC19365E0800D512F7 /* Flip.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E08D841925425700FEDAFF /* FlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E08D8A1925425700FEDAFF /* FlipTests.m */,
+				79E08D851925425700FEDAFF /* Supporting Files */,
+			);
+			path = FlipTests;
+			sourceTree = "<group>";
+		};
+		79E08D851925425700FEDAFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E08D861925425700FEDAFF /* FlipTests-Info.plist */,
+				79E08D871925425700FEDAFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E08D581925425600FEDAFF /* Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E08D8E1925425700FEDAFF /* Build configuration list for PBXNativeTarget "Flip" */;
+			buildPhases = (
+				79E08D551925425600FEDAFF /* Sources */,
+				79E08D561925425600FEDAFF /* Frameworks */,
+				79E08D571925425600FEDAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flip;
+			productName = Flip;
+			productReference = 79E08D591925425600FEDAFF /* Flip Cartoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E08D7C1925425600FEDAFF /* FlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E08D911925425700FEDAFF /* Build configuration list for PBXNativeTarget "FlipTests" */;
+			buildPhases = (
+				79E08D791925425600FEDAFF /* Sources */,
+				79E08D7A1925425600FEDAFF /* Frameworks */,
+				79E08D7B1925425600FEDAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E08D831925425700FEDAFF /* PBXTargetDependency */,
+			);
+			name = FlipTests;
+			productName = FlipTests;
+			productReference = 79E08D7D1925425600FEDAFF /* FlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E08D511925425600FEDAFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Finucane";
+				TargetAttributes = {
+					79E08D7C1925425600FEDAFF = {
+						TestTargetID = 79E08D581925425600FEDAFF;
+					};
+				};
+			};
+			buildConfigurationList = 79E08D541925425600FEDAFF /* Build configuration list for PBXProject "Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 79E08D501925425600FEDAFF;
+			productRefGroup = 79E08D5A1925425600FEDAFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E08D581925425600FEDAFF /* Flip */,
+				79E08D7C1925425600FEDAFF /* FlipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E08D571925425600FEDAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79896B6D1937BB4100F7D187 /* Localizable.strings in Resources */,
+				79E08D731925425600FEDAFF /* Main_iPad.storyboard in Resources */,
+				79E08D781925425600FEDAFF /* Images.xcassets in Resources */,
+				79E08D701925425600FEDAFF /* Main_iPhone.storyboard in Resources */,
+				79E08D671925425600FEDAFF /* InfoPlist.strings in Resources */,
+				794AAF321954E0FE00251D77 /* product_ids.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E08D7B1925425600FEDAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E08D891925425700FEDAFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E08D551925425600FEDAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE10831942525800082E86 /* FLScene.m in Sources */,
+				797FD28D193C1B44008E365C /* NSManagedObjectModel+KCOrderedAccessorFix.m in Sources */,
+				793321351936AD1400CFA035 /* FLCartoon.m in Sources */,
+				794AAF401955075900251D77 /* SKProduct+Additions.m in Sources */,
+				79DD99F11939458900F31DE1 /* FLManagedObject.m in Sources */,
+				79896B601937A10B00F7D187 /* FLState.m in Sources */,
+				79DD99ED19390E9600F31DE1 /* FLCanvasView.m in Sources */,
+				79C15DB11947B2B100DC8279 /* UIView+AutoLayout.m in Sources */,
+				79C965CC1938048F0032A8FC /* FLCartoonCell.m in Sources */,
+				793321381936AD3A00CFA035 /* FLPath.m in Sources */,
+				79E08D761925425600FEDAFF /* FLCanvasViewController.m in Sources */,
+				797FD29619423335008E365C /* DFPanGestureRecognizer.m in Sources */,
+				79CD2956195883F300CB0C34 /* FLUndo.m in Sources */,
+				79BE10A41944E96F00082E86 /* FLStroke.m in Sources */,
+				79E08D6D1925425600FEDAFF /* FLAppDelegate.m in Sources */,
+				7933213E1936AD8500CFA035 /* FLShape.m in Sources */,
+				79C15DAE19479A5400DC8279 /* UIImage+Additions.m in Sources */,
+				7933213B1936AD5800CFA035 /* FLPoint.m in Sources */,
+				794AAF3A1954F60A00251D77 /* FLPurchasesViewController.m in Sources */,
+				79C9837E192EEAE5002CD5B9 /* FLCartoonDetailViewController.m in Sources */,
+				79BE10A71944E9B800082E86 /* FLText.m in Sources */,
+				79C965D11938F62D0032A8FC /* geometry.m in Sources */,
+				79EEF9501950AC9B00F2D4D2 /* FLCartoonProvider.m in Sources */,
+				79EEF94D194FAAB700F2D4D2 /* FLCartoonWriter.m in Sources */,
+				79A119FE19365E0800D512F7 /* Flip.xcdatamodeld in Sources */,
+				79C965CF193814480032A8FC /* UIColor+Additions.m in Sources */,
+				794AAF3D1954F89100251D77 /* FLPurchasesCell.m in Sources */,
+				79C15DAB1947945700DC8279 /* DFButton.m in Sources */,
+				793321451936CF8300CFA035 /* NSError+Additions.m in Sources */,
+				79A11A8619366E3A00D512F7 /* FLCoreData.m in Sources */,
+				797FD290193E5967008E365C /* FLPolygon.m in Sources */,
+				797FD293194136AD008E365C /* UIButton+Additions.m in Sources */,
+				79C9837A192C35C4002CD5B9 /* FLNavigationController.m in Sources */,
+				79896B661937B6F900F7D187 /* UIAlertView+Additions.m in Sources */,
+				794AAF351954E15D00251D77 /* FLPurchases.m in Sources */,
+				79E08D691925425600FEDAFF /* main.m in Sources */,
+				79EEF9531952308F00F2D4D2 /* FLActivityProgressViewController.m in Sources */,
+				79C98377192C3537002CD5B9 /* FLCartoonsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E08D791925425600FEDAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E08D8B1925425700FEDAFF /* FlipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E08D831925425700FEDAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E08D581925425600FEDAFF /* Flip */;
+			targetProxy = 79E08D821925425700FEDAFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79896B6F1937BB4100F7D187 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79896B6E1937BB4100F7D187 /* en */,
+				79896B701937BB4E00F7D187 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		79E08D651925425600FEDAFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E08D661925425600FEDAFF /* en */,
+				79896B691937BA9200F7D187 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79E08D6E1925425600FEDAFF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E08D6F1925425600FEDAFF /* Base */,
+				79CD295A1958DC1100CB0C34 /* de */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		79E08D711925425600FEDAFF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E08D721925425600FEDAFF /* Base */,
+				79CD29581958DAFB00CB0C34 /* de */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		79E08D871925425700FEDAFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E08D881925425700FEDAFF /* en */,
+				79896B6A1937BA9200F7D187 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E08D8C1925425700FEDAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E08D8D1925425700FEDAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E08D8F1925425700FEDAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
+				INFOPLIST_FILE = "Flip/Flip-Info.plist";
+				PRODUCT_NAME = "Flip Cartoon";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79E08D901925425700FEDAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
+				INFOPLIST_FILE = "Flip/Flip-Info.plist";
+				PRODUCT_NAME = "Flip Cartoon";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79E08D921925425700FEDAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flip.app/Flip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlipTests/FlipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79E08D931925425700FEDAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flip.app/Flip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
+				INFOPLIST_FILE = "FlipTests/FlipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E08D541925425600FEDAFF /* Build configuration list for PBXProject "Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E08D8C1925425700FEDAFF /* Debug */,
+				79E08D8D1925425700FEDAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E08D8E1925425700FEDAFF /* Build configuration list for PBXNativeTarget "Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E08D8F1925425700FEDAFF /* Debug */,
+				79E08D901925425700FEDAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E08D911925425700FEDAFF /* Build configuration list for PBXNativeTarget "FlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E08D921925425700FEDAFF /* Debug */,
+				79E08D931925425700FEDAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79A119FC19365E0800D512F7 /* Flip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79A119FD19365E0800D512F7 /* Flip.xcdatamodel */,
+			);
+			currentVersion = 79A119FD19365E0800D512F7 /* Flip.xcdatamodel */;
+			path = Flip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79E08D511925425600FEDAFF /* Project object */;
+}

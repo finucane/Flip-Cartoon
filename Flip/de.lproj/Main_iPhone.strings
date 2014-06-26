@@ -1,0 +1,45 @@
+
+/* Class = "IBUIButton"; normalTitle = "Purchase"; ObjectID = "0q4-a2-69q"; */
+"0q4-a2-69q.normalTitle" = "Kaufen";
+
+/* Class = "IBUILabel"; text = "Line Thickness:"; ObjectID = "4h6-4P-CXk"; */
+"4h6-4P-CXk.text" = "Linienstärke:";
+
+/* Class = "IBUILabel"; text = "Font:"; ObjectID = "B4O-yF-pr7"; */
+"B4O-yF-pr7.text" = "Schriftart:";
+
+/* Class = "IBUILabel"; text = "1000/1000"; ObjectID = "GWE-b0-eUm"; */
+"GWE-b0-eUm.text" = "1000/1000";
+
+/* Class = "IBUILabel"; text = "Georgees Pizza makes an ok pizza especially compared for red baron frozen or the nasty stuff 711 makes."; ObjectID = "KdR-dJ-B5z"; */
+"KdR-dJ-B5z.text" = "Georgees Pizza makes an ok pizza especially compared for red baron frozen or the nasty stuff 711 makes.";
+
+/* Class = "IBUILabel"; text = "In-App Purchases"; ObjectID = "PHQ-bc-ho9"; */
+"PHQ-bc-ho9.text" = "In-App-Käufe";
+
+/* Class = "IBUINavigationItem"; title = "Cartoon"; ObjectID = "Wwj-Ds-bHm"; */
+"Wwj-Ds-bHm.title" = "Cartoon";
+
+/* Class = "IBUIButton"; normalTitle = "Restore"; ObjectID = "XeA-6f-664"; */
+"XeA-6f-664.normalTitle" = "Wiederherstellen";
+
+/* Class = "IBUILabel"; text = "label"; ObjectID = "YNJ-7V-9ao"; */
+"YNJ-7V-9ao.text" = "label";
+
+/* Class = "IBUILabel"; text = "Converting cartoon to video."; ObjectID = "cZp-Q8-P3p"; */
+"cZp-Q8-P3p.text" = "Konvertieren Cartoon auf Video.";
+
+/* Class = "IBUILabel"; text = "Title:"; ObjectID = "noK-Vv-QCk"; */
+"noK-Vv-QCk.text" = "Titel:";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "oZs-10-WCI"; */
+"oZs-10-WCI.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "Cartoons"; ObjectID = "obv-5n-74w"; */
+"obv-5n-74w.title" = "Cartoons";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "t2d-re-CW0"; */
+"t2d-re-CW0.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Frames per Second:"; ObjectID = "yiX-zS-DVm"; */
+"yiX-zS-DVm.text" = "Bilder pro Sekunde:";

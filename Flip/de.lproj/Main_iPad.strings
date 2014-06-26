@@ -1,0 +1,48 @@
+
+/* Class = "IBUINavigationItem"; title = "Cartoons"; ObjectID = "0S9-KS-DKs"; */
+"0S9-KS-DKs.title" = "Cartoons";
+
+/* Class = "IBUILabel"; text = "Line Thickness:"; ObjectID = "5gQ-X5-txO"; */
+"5gQ-X5-txO.text" = "Linienstärke:";
+
+/* Class = "IBUILabel"; text = "Font:"; ObjectID = "5si-jV-aQg"; */
+"5si-jV-aQg.text" = "Schriftart:";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "6AH-pf-AhW"; */
+"6AH-pf-AhW.text" = "Label";
+
+/* Class = "IBUILabel"; text = "1000/1000"; ObjectID = "74c-hj-i7h"; */
+"74c-hj-i7h.text" = "1000/1000";
+
+/* Class = "IBUILabel"; text = "Title:"; ObjectID = "Gpg-x5-Ps0"; */
+"Gpg-x5-Ps0.text" = "Titel:";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "LoE-XS-s79"; */
+"LoE-XS-s79.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Georgees Pizza makes an ok pizza especially compared for red baron frozen or the nasty stuff 711 makes what happens when this gets really long."; ObjectID = "Q1s-rg-bkO"; */
+"Q1s-rg-bkO.text" = "Georgees Pizza makes an ok pizza especially compared for red baron frozen or the nasty stuff 711 makes what happens when this gets really long.";
+
+/* Class = "IBUIButton"; normalTitle = "Restore"; ObjectID = "Vaa-8W-RiK"; */
+"Vaa-8W-RiK.normalTitle" = "Wiederherstellen";
+
+/* Class = "IBUILabel"; text = "label"; ObjectID = "aiU-pG-RxP"; */
+"aiU-pG-RxP.text" = "label";
+
+/* Class = "IBUINavigationItem"; title = "Cartoon"; ObjectID = "dDN-OH-Rda"; */
+"dDN-OH-Rda.title" = "Cartoon";
+
+/* Class = "IBUILabel"; text = "Converting cartoon to video."; ObjectID = "j8c-Pw-iIe"; */
+"j8c-Pw-iIe.text" = "Konvertieren Cartoon auf Video";
+
+/* Class = "IBUILabel"; text = "In-App Purchases"; ObjectID = "lna-Di-VXw"; */
+"lna-Di-VXw.text" = "In-App-Käufe";
+
+/* Class = "IBUIButton"; normalTitle = "Purchase"; ObjectID = "sRG-Rw-yXl"; */
+"sRG-Rw-yXl.normalTitle" = "Kaufen";
+
+/* Class = "IBUILabel"; text = "Frames per Second:"; ObjectID = "ue2-fg-qr4"; */
+"ue2-fg-qr4.text" = "Bilder pro Sekunde:";
+
+/* Class = "IBUILabel"; text = "(pending)"; ObjectID = "yPn-iM-BqF"; */
+"yPn-iM-BqF.text" = "(Anstehend)";
