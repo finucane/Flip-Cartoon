@@ -79,7 +79,7 @@ static CGFloat const PURCHASE_CELL_HEIGHT = 161;
   SKProduct*product = App.purchases.products [indexPath.section];
 
   cell.title.text = product.localizedTitle;
-  cell.description.text = product.localizedDescription;
+  cell._description.text = product.localizedDescription;
   cell.price.text = product.formattedPriceInUserCurrency; //from category
   
   /*disable the buy buttons if the product is bought (or can't be bought) and set the status text*/

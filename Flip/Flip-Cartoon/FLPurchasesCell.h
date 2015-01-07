@@ -10,7 +10,7 @@
 
 @interface FLPurchasesCell : UITableViewCell
 @property (nonatomic, retain) IBOutlet UILabel*title;
-@property (nonatomic, retain) IBOutlet UILabel*description;
+@property (nonatomic, retain) IBOutlet UILabel*_description;
 @property (nonatomic, retain) IBOutlet UILabel*price;
 @property (nonatomic, retain) IBOutlet UILabel*status;
 @property (nonatomic, retain) IBOutlet UIButton*purchaseButton;

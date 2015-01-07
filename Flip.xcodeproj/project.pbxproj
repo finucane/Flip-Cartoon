@@ -54,25 +54,10 @@
 		79E08D731925425600FEDAFF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D711925425600FEDAFF /* Main_iPad.storyboard */; };
 		79E08D761925425600FEDAFF /* FLCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E08D751925425600FEDAFF /* FLCanvasViewController.m */; };
 		79E08D781925425600FEDAFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D771925425600FEDAFF /* Images.xcassets */; };
-		79E08D7F1925425600FEDAFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D7E1925425600FEDAFF /* XCTest.framework */; };
-		79E08D801925425600FEDAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D5C1925425600FEDAFF /* Foundation.framework */; };
-		79E08D811925425700FEDAFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E08D601925425600FEDAFF /* UIKit.framework */; };
-		79E08D891925425700FEDAFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E08D871925425700FEDAFF /* InfoPlist.strings */; };
-		79E08D8B1925425700FEDAFF /* FlipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E08D8A1925425700FEDAFF /* FlipTests.m */; };
 		79EEF94D194FAAB700F2D4D2 /* FLCartoonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF94C194FAAB700F2D4D2 /* FLCartoonWriter.m */; };
 		79EEF9501950AC9B00F2D4D2 /* FLCartoonProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF94F1950AC9B00F2D4D2 /* FLCartoonProvider.m */; };
 		79EEF9531952308F00F2D4D2 /* FLActivityProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EEF9521952308F00F2D4D2 /* FLActivityProgressViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		79E08D821925425700FEDAFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79E08D511925425600FEDAFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79E08D581925425600FEDAFF;
-			remoteInfo = Flip;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7932A54B195347E200B0F871 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -110,7 +95,6 @@
 		79896B641937B6F900F7D187 /* UIAlertView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Additions.h"; sourceTree = "<group>"; };
 		79896B651937B6F900F7D187 /* UIAlertView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Additions.m"; sourceTree = "<group>"; };
 		79896B691937BA9200F7D187 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		79896B6A1937BA9200F7D187 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79896B6E1937BB4100F7D187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		79896B701937BB4E00F7D187 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		79A119FA19365D9D00D512F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -165,11 +149,7 @@
 		79E08D741925425600FEDAFF /* FLCanvasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCanvasViewController.h; sourceTree = "<group>"; };
 		79E08D751925425600FEDAFF /* FLCanvasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCanvasViewController.m; sourceTree = "<group>"; };
 		79E08D771925425600FEDAFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		79E08D7D1925425600FEDAFF /* FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E08D7E1925425600FEDAFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		79E08D861925425700FEDAFF /* FlipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipTests-Info.plist"; sourceTree = "<group>"; };
-		79E08D881925425700FEDAFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		79E08D8A1925425700FEDAFF /* FlipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipTests.m; sourceTree = "<group>"; };
 		79EEF94B194FAAB700F2D4D2 /* FLCartoonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonWriter.h; sourceTree = "<group>"; };
 		79EEF94C194FAAB700F2D4D2 /* FLCartoonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCartoonWriter.m; sourceTree = "<group>"; };
 		79EEF94E1950AC9B00F2D4D2 /* FLCartoonProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCartoonProvider.h; sourceTree = "<group>"; };
@@ -189,16 +169,6 @@
 				79E08D5F1925425600FEDAFF /* CoreGraphics.framework in Frameworks */,
 				79E08D611925425600FEDAFF /* UIKit.framework in Frameworks */,
 				79E08D5D1925425600FEDAFF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79E08D7A1925425600FEDAFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79E08D7F1925425600FEDAFF /* XCTest.framework in Frameworks */,
-				79E08D811925425700FEDAFF /* UIKit.framework in Frameworks */,
-				79E08D801925425600FEDAFF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +288,6 @@
 				793321421936CF5A00CFA035 /* Library */,
 				79A11A901936868100D512F7 /* Model */,
 				79E08D621925425600FEDAFF /* Flip */,
-				79E08D841925425700FEDAFF /* FlipTests */,
 				79E08D5B1925425600FEDAFF /* Frameworks */,
 				79E08D5A1925425600FEDAFF /* Products */,
 			);
@@ -328,7 +297,6 @@
 			isa = PBXGroup;
 			children = (
 				79E08D591925425600FEDAFF /* Flip Cartoon.app */,
-				79E08D7D1925425600FEDAFF /* FlipTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -373,24 +341,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		79E08D841925425700FEDAFF /* FlipTests */ = {
-			isa = PBXGroup;
-			children = (
-				79E08D8A1925425700FEDAFF /* FlipTests.m */,
-				79E08D851925425700FEDAFF /* Supporting Files */,
-			);
-			path = FlipTests;
-			sourceTree = "<group>";
-		};
-		79E08D851925425700FEDAFF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				79E08D861925425700FEDAFF /* FlipTests-Info.plist */,
-				79E08D871925425700FEDAFF /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -411,24 +361,6 @@
 			productReference = 79E08D591925425600FEDAFF /* Flip Cartoon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79E08D7C1925425600FEDAFF /* FlipTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 79E08D911925425700FEDAFF /* Build configuration list for PBXNativeTarget "FlipTests" */;
-			buildPhases = (
-				79E08D791925425600FEDAFF /* Sources */,
-				79E08D7A1925425600FEDAFF /* Frameworks */,
-				79E08D7B1925425600FEDAFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				79E08D831925425700FEDAFF /* PBXTargetDependency */,
-			);
-			name = FlipTests;
-			productName = FlipTests;
-			productReference = 79E08D7D1925425600FEDAFF /* FlipTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -437,11 +369,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "David Finucane";
-				TargetAttributes = {
-					79E08D7C1925425600FEDAFF = {
-						TestTargetID = 79E08D581925425600FEDAFF;
-					};
-				};
 			};
 			buildConfigurationList = 79E08D541925425600FEDAFF /* Build configuration list for PBXProject "Flip" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -458,7 +385,6 @@
 			projectRoot = "";
 			targets = (
 				79E08D581925425600FEDAFF /* Flip */,
-				79E08D7C1925425600FEDAFF /* FlipTests */,
 			);
 		};
 /* End PBXProject section */
@@ -474,14 +400,6 @@
 				79E08D701925425600FEDAFF /* Main_iPhone.storyboard in Resources */,
 				79E08D671925425600FEDAFF /* InfoPlist.strings in Resources */,
 				794AAF321954E0FE00251D77 /* product_ids.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79E08D7B1925425600FEDAFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79E08D891925425700FEDAFF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,23 +451,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79E08D791925425600FEDAFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79E08D8B1925425700FEDAFF /* FlipTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		79E08D831925425700FEDAFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 79E08D581925425600FEDAFF /* Flip */;
-			targetProxy = 79E08D821925425700FEDAFF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		79896B6F1937BB4100F7D187 /* Localizable.strings */ = {
@@ -586,15 +488,6 @@
 				79CD29581958DAFB00CB0C34 /* de */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		79E08D871925425700FEDAFF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79E08D881925425700FEDAFF /* en */,
-				79896B6A1937BA9200F7D187 /* de */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -698,46 +591,6 @@
 			};
 			name = Release;
 		};
-		79E08D921925425700FEDAFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flip.app/Flip";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FlipTests/FlipTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		79E08D931925425700FEDAFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flip.app/Flip";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Flip/Flip-Prefix.pch";
-				INFOPLIST_FILE = "FlipTests/FlipTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -755,15 +608,6 @@
 			buildConfigurations = (
 				79E08D8F1925425700FEDAFF /* Debug */,
 				79E08D901925425700FEDAFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		79E08D911925425700FEDAFF /* Build configuration list for PBXNativeTarget "FlipTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79E08D921925425700FEDAFF /* Debug */,
-				79E08D931925425700FEDAFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
