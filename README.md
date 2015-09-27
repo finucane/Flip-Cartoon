@@ -17,3 +17,5 @@ AVAsset
 NSUndoManager
 Architecture
 
+Flip Cartoon is in the App Store here: https://itunes.apple.com/us/app/flip-cartoon/id891850902
+
